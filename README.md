@@ -1,11 +1,11 @@
-# OrderBook Task Management System
+# Orderbook task management system
 
 This project is a task management system for a software company, implemented using Python OOP. It consists of:
 
 - **classes.py**: Defines the Task and OrderBook classes for managing tasks.
 - **main.py**: Contains test cases and the final application to interact with tasks via a command-based interface.
 
-## Key Features
+## Key features
 - ✔ **Task Management**: Add, list, and update tasks.
 - ✔ **OrderBook System**: Organize tasks by programmers.
 - ✔ **Task Completion Tracking**: Mark tasks as finished.
