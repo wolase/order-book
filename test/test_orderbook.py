@@ -83,3 +83,8 @@ def test_mark_finished_invalid_id():
     ob.mark_finished(999)  # nonexistent ID
     # Ensure task not accidentally marked
     assert ob.all_orders()[0].is_finished() == initial_status
+
+def test_task_str_after_mark_finished():
+    task = Task("Test Task", "Tester", 1)
+    task.mark_finished()
+    assert "FINISHED" in str(task)
